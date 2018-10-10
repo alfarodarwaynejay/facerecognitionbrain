@@ -1,9 +1,6 @@
 import React from 'react';
 import Tilt from 'react-tilt';
 
-
-//{/*const { onRouteChange } = this.props;*/}
-
 class Register extends React.Component {
 	/*({ onRouteChange })*/
 	constructor(props) {
@@ -31,7 +28,7 @@ class Register extends React.Component {
 	}
 
 	onSubmitRegister = () => {
-		fetch('http://localhost:3000/register', {
+		fetch('https://fathomless-sands-65551.herokuapp.com/register', {
 			method: 'post',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({
