@@ -2,7 +2,6 @@ import React from 'react';
 import Tilt from 'react-tilt';
 
 class Register extends React.Component {
-	/*({ onRouteChange })*/
 	constructor(props) {
 		super(props);
 		this.state = {
